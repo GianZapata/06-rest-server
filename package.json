@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.ts",
-    "ts": "tsc --watch",
-    "dev": "concurrently --kill-others \"npm run start\" \"npm run ts\""
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
